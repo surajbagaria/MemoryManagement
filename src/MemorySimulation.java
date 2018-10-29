@@ -23,12 +23,12 @@ public class MemorySimulation {
     static double runAlgorithm(Algorithms algorithm, ProcessFactory workLoad, PageTable pageTable) {
         double hitMissRatio = 0;
         pageTable.setAlgorithms(algorithm);
-        System.out.print("-------------------------------\n");
+        System.out.print("-------------------------------------\n");
         for (int i = 0; i < 5; i++) {
         	workLoad.run(pageTable);
             hitMissRatio += (double)pageTable.hit / (double)pageTable.miss;
             pageTable.cleanPageTable();
-            System.out.print("-------------------------------\n");
+            System.out.print("-------------------------------------\n");
         }
 
         System.out.print("average hit miss ratio is ");
