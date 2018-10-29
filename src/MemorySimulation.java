@@ -8,9 +8,9 @@ public class MemorySimulation {
 
 
         System.out.print("FIFO algorithm:\n");
-        runAlgorithm(new FIFO(), workLoad, table);
+        //runAlgorithm(new FIFO(), workLoad, table);
         System.out.print("LRU algorithm:\n");
-        //runAlgorithm(new LRU(), workLoad, table);
+        runAlgorithm(new LRU(), workLoad, table);
         System.out.print("LFU algorithm:\n");
         //runAlgorithm(new LFU(), workLoad, table);
         System.out.print("MFU algorithm:\n");
