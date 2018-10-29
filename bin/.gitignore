@@ -1,0 +1,13 @@
+/MemorySimulation.class
+/Process.class
+/ProcessFactory.class
+/Algorithms.class
+/PageTable.class
+/PageTableEntry.class
+/ProcessFactory$1.class
+/Simulation.class
+/FIFO.class
+/LRU.class
+/LFU.class
+/MFU.class
+/RandomPick.class
